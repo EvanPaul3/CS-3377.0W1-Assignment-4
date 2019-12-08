@@ -1,0 +1,6 @@
+00	start-of-transaction eap180003
+01	echo " ** a4client1test.txt **"; date; whoami; hostname
+02	ls a4*
+03	ls -l a4server*
+04 	ls -l a4client*
+05	end-of-transaction

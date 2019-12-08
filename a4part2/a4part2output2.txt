@@ -1,0 +1,69 @@
+
+New command read
+Processing command: 00	start-of-transaction  eap180003
+Sending command to server...
+Received string from server
+Result of command:
+User ID matches, executing commands...
+
+New command read
+Processing command: 01	echo " ** a4client2test2.txt **"; date; whoami; hostname
+Sending command to server...
+Received string from server
+Result of command:
+Executing Command: echo " ** a4client2test2.txt **"; date; whoami; hostname
+ ** a4client2test2.txt **
+Sat Dec  7 17:54:28 CST 2019
+eap180003
+cslinux1.utdallas.edu
+
+New command read
+Processing command: 02	ls /etc | wc
+Sending command to server...
+Received string from server
+Result of command:
+Executing Command: ls /etc | wc
+lient2test2.txt **"; date; whoami; hostname
+    390     390    4162
+
+New command read
+Processing command: 03	ls /etc | head
+Sending command to server...
+Received string from server
+Result of command:
+Executing Command: ls /etc | head
+ent2test2.txt **"; date; whoami; hostname
+1
+a2ps
+a2ps.cfg
+a2ps-site.cfg
+abrt
+acpi
+adjtime
+akonadi
+aliases
+aliases.db
+
+New command read
+Processing command: 04	ls
+Sending command to server...
+Received string from server
+Result of command:
+Executing Command: ls
+/etc | head
+ent2test2.txt **"; date; whoami; hostname
+a4client2
+a4client2.c
+a4part2output1.txt
+a4part2output2.txt
+a4part2runlog1.txt
+a4part2runlog2.txt
+a4server2
+a4server2.c
+Makefile
+
+New command read
+Processing command: 05	end-of-transactionSending command to server...
+Received string from server
+Result of command:
+End-of-transaction reached
